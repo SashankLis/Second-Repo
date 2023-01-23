@@ -6,11 +6,11 @@ def region_load():
 
     # truncate tmp table region
 
-    # truncate_tmp_region = '''
-    #                              TRUNCATE TABLE BHATBHATENI.SASHANK_TMP.TMP_REGION
-    #                                  '''
-    #
-    # sf.execute_query(truncate_tmp_region)
+    truncate_tmp_region = '''
+                                 TRUNCATE TABLE BHATBHATENI.SASHANK_TMP.TMP_REGION
+                                     '''
+    
+    sf.execute_query(truncate_tmp_region)
 
     # load tmp table region
 
